@@ -274,6 +274,11 @@ ul {
 	left: calc(50% - 550px);
 }
 
+.basic-list {
+	text-align: left;
+	line-height: 200%;
+}
+
 .box-title {
 	box-sizing: content-box;
 	padding: 60px;
@@ -630,8 +635,30 @@ ul {
 	transition: all 0.5s;
 }
 
+.codeable {
+	color: #FF0266;
+}
+
+.codeable .blue:hover,
+.codeable .dark:hover,
+.codeable .purple:hover {
+	text-decoration: underline;
+}
+
+.dark {
+	color: #111;
+}
+
 .red {
 	color: red;
+}
+
+.purple {
+	color: purple;
+}
+
+.blue {
+	color: #0099FF;
 }
 
 .circle {

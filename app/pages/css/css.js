@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('workshop')
-.controller('CssCtrl', ['$scope', function($scope) {
+.controller('CssCtrl', ['$scope', 'codeFormater', function($scope, codeFormater) {
 
 	var vm = $scope;
 
@@ -114,5 +114,11 @@ angular.module('workshop')
 			]
 		}
 	};
+
+	function init(){
+		codeFormater.format();
+	}
+
+	init();
 
 }]);
